@@ -67,4 +67,9 @@ All code and Jupyter notebooks used in this project are uploaded to this reposit
 1. Clone the repository:
    ```bash
    git clone https://github.com/AlexPazCodesUCSD/CSE151AGroupProject.git
-2. 
+2. Navigate to the project directory:
+   ```bash
+   cd CSE151AGroupProject
+3. Open the Jupyter notebook:
+   ```bash
+   jupyter notebook Milestone2_CSE151A_Group_Project_Amazon_Agent_Rating.ipynb
