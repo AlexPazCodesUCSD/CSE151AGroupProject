@@ -61,3 +61,10 @@ First. we clean up the dataset. We identify columns with missing values and coun
 
 All code and Jupyter notebooks used in this project are uploaded to this repository. You can find the detailed data exploration, visualization, and preprocessing steps in the following notebook:
 [Amazon Agent Rating Prediction Jupyter Notebook for Milestone 2](Milestone2_CSE151A_Group_Project_Amazon_Agent_Rating.ipynb)
+
+## How to Run the Notebook
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AlexPazCodesUCSD/CSE151AGroupProject.git
+2. 
