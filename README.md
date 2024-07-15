@@ -5,6 +5,7 @@ The objective is to build and evaluate predictive models that can accurately est
 Dataset: https://www.kaggle.com/datasets/sujalsuthar/amazon-delivery-dataset
 
 # MILESTONE 2   
+
 ## Data Exploration
 
 The dataset used in this project consists of various attributes related to Amazon deliveries. The exploration step involves evaluating the data, understanding the number of observations, data distributions, scales, missing data, and column descriptions.
@@ -59,5 +60,4 @@ First. we clean up the dataset. We identify columns with missing values and coun
 ### Link to Jupyter Notebook
 
 All code and Jupyter notebooks used in this project are uploaded to this repository. You can find the detailed data exploration, visualization, and preprocessing steps in the following notebook:
-
-- [Amazon Agent Rating Prediction Jupyter Notebook for Milestone 2](Milestone2_CSE151A_Group_Project_Amazon_Agent_Rating.ipynb)
+[Amazon Agent Rating Prediction Jupyter Notebook for Milestone 2](Milestone2_CSE151A_Group_Project_Amazon_Agent_Rating.ipynb)
