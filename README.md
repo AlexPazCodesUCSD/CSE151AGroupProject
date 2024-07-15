@@ -56,8 +56,6 @@ Data preprocessing is essential for preparing the data for modeling. The preproc
 ## QUICK OVERVIEW FOR MILESTONE 2
 First. we clean up the dataset. We identify columns with missing values and count the number of missing values in each, print out the columns with missing values and the count of missing values in each, and cleaning the data by dropping rows with missing values. After cleaning up the dataset, we start to creating more features so that it is more easier for us to analyze the data and for people to visualize the pattern. We use store location, including store latitude and store longitude, and drop location, including drop latitude and drop longitude, to calculate the distance between store and drop-off location. We add this feature into our dataset. We also add a delivery season feature into our dataset, which splits delivery months into four seasons, which are spring, summer, fall, and winter. We have also changed the datetime formats for order date, order time, and pickup time so that the datetime structure is consistent in the dataset. The date format we use in the dataset is Year/Month/Date, and the time format we use in the dataset is Hour/Minute/Second.
 
-Jupyter Notebook: https://colab.research.google.com/drive/1jelN7LeCg5STn4K33Uw23ikBc56peYlP#scrollTo=z_5LrR1wAFfD
-
 ### Link to Jupyter Notebook
 
 All code and Jupyter notebooks used in this project are uploaded to this repository. You can find the detailed data exploration, visualization, and preprocessing steps in the following notebook:
