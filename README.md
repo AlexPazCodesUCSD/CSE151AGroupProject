@@ -65,8 +65,11 @@ All code and Jupyter notebooks used in this project are uploaded to this reposit
 # MILESTONE 3
 
 ## PART 4
-
+### Model fit line
 ![Fitting line](fittingLine.png)
+
+
+### Next models and because.. 
 
 ## PART 5 
 ### Training the Linear Regression Model
