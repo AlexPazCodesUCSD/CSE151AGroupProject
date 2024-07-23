@@ -64,3 +64,11 @@ All code and Jupyter notebooks used in this project are uploaded to this reposit
 
 # MILESTONE 3
 
+## PART 5 
+### Training the Linear Regression Model
+In Milestone 3, we focused on major preprocessing of the dataset before training our first model. After cleaning and preparing the data, we chose to use a linear regression model. This choice was motivated by the linear nature of our dataset. The goal was to predict the `Agent_Rating` based on various features, including `Agent_Age`, `Distance_Miles`, and `Delivery_Time`.
+
+We split the dataset into training and testing sets, with 80% of the data used for training and 20% reserved for testing. The linear regression model was then trained using the training set. The performance of the model was evaluated using the mean square error (MSE) metric. For the training set, the MSE was 0.08898, and for the testing set, the MSE was 0.08912. These results indicate a consistent performance across both sets, suggesting that the model did not overfit the training data.
+
+
+
