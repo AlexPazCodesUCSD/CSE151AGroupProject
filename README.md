@@ -66,7 +66,7 @@ All code and Jupyter notebooks used in this project are uploaded to this reposit
 
 ## PART 4
 
-
+![Fitting line](fittingLine.png)
 
 ## PART 5 
 ### Training the Linear Regression Model
