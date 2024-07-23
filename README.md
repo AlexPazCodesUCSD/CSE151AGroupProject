@@ -64,6 +64,10 @@ All code and Jupyter notebooks used in this project are uploaded to this reposit
 
 # MILESTONE 3
 
+## PART 4
+
+
+
 ## PART 5 
 ### Training the Linear Regression Model
 In Milestone 3, we focused on major preprocessing of the dataset before training our first model. After cleaning and preparing the data, we chose to use a linear regression model. This choice was motivated by the linear nature of our dataset. The goal was to predict the `Agent_Rating` based on various features, including `Agent_Age`, `Distance_Miles`, and `Delivery_Time`.
@@ -85,9 +89,7 @@ Overall, the linear regression model serves as a solid starting point, and futur
 
 ## QUICK OVERVIEW OF MILESTONE 3
 ### Overview
-We completed major preprocessing of our dataset and trained our first model using linear regression. The model aimed to predict `Agent_Rating` based on `Agent_Age`, `Distance_Miles`, and `Delivery_Time`, achieving a mean square error of approximately 0.08898 on the training set and 0.08912 on the testing set.
-
-Next, we evaluated the performance of our linear regression model, noting its strong performance within the higher rating range (3.5 to 5.0). However, the model may not perform as well on lower ratings (0.0 to 3.5) due to its simplicity and the limited data in this range. We suggested increasing the model's complexity and incorporating additional features to improve accuracy.
+We completed major preprocessing of our dataset and trained our first model using linear regression. The model aimed to predict `Agent_Rating` based on `Agent_Age`, `Distance_Miles`, and `Delivery_Time`, achieving a mean square error of approximately 0.08898 on the training set and 0.08912 on the testing set. Next, we evaluated the performance of our linear regression model, noting its strong performance within the higher rating range (3.5 to 5.0). However, the model may not perform as well on lower ratings (0.0 to 3.5) due to its simplicity and the limited data in this range. We suggested increasing the model's complexity and incorporating additional features to improve accuracy.
 
 
 
