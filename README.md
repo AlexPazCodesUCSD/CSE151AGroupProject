@@ -67,9 +67,10 @@ All code and Jupyter notebooks used in this project are uploaded to this reposit
 ## PART 4
 ### Model fit line
 ![Fitting line](fittingLine.png)
-
+Here we can see how our model predicts agent ratings with Delivery_Time as the X-axis. We can see that our fitting line is cutting in between main clusters of actual ratings. This means our predictions are achieving a good mse since the distance between our line and actual ratings is minimized.
 
 ### Next models and because.. 
+Right now we are considering more complex models from outside of class  that have the potential to achieve a tighter mse (think neural network or polynomial regression type models). We are also looking into using Randomforest and GBM models that can potentially get us an even tighter mse.
 
 ## PART 5 
 ### Training the Linear Regression Model
