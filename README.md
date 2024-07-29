@@ -99,8 +99,8 @@ We completed major preprocessing of our dataset and trained our first model usin
 ## A COMPLETE INTRODUCTION
 
 ## A COMPLETE SUBMISSION
-[Abstract](# ABSTRACT)
-
+[Milestone 1: Abstract](#ABSTRACT)
+[Milestone 2: Data Preprocessing](#MILESTONE2)
 ## ALL CODE
 
 ## A WRITTEN REPORT
