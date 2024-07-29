@@ -94,7 +94,15 @@ Overall, the linear regression model serves as a solid starting point, and futur
 ## QUICK OVERVIEW OF MILESTONE 3
 We completed major preprocessing of our dataset and trained our first model using linear regression. The model aimed to predict `Agent_Rating` based on `Agent_Age`, `Distance_Miles`, and `Delivery_Time`, achieving a mean square error of approximately 0.08898 on the training set and 0.08912 on the testing set. Next, we evaluated the performance of our linear regression model, noting its strong performance within the higher rating range (3.5 to 5.0). However, the model may not perform as well on lower ratings (0.0 to 3.5) due to its simplicity and the limited data in this range. We suggested increasing the model's complexity and incorporating additional features to improve accuracy.
 
+# MILESTONE 4
 
+## A COMPLETE INTRODUCTION
+
+## A complete submission
+
+## ALL CODE
+
+## A WRITTEN REPORT
 
 
 
