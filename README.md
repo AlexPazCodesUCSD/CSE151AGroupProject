@@ -108,7 +108,7 @@ We completed major preprocessing of our dataset and trained our first model usin
 [All code categorized by milestone in the repository](https://github.com/AlexPazCodesUCSD/CSE151AGroupProject)  
 
 ## A WRITTEN REPORT
-
+[Report for the Amazon Agent Rating Prediction Model](WrittenReport.md)
 
 
 
