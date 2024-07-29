@@ -60,7 +60,7 @@ First. we clean up the dataset. We identify columns with missing values and coun
 ### Link to Jupyter Notebook for Milestone 2
 
 All code and Jupyter notebooks used in this project are uploaded to this repository. You can find the detailed data exploration, visualization, and preprocessing steps in the following notebook:
-[Amazon Agent Rating Prediction Jupyter Notebook for Milestone 2](Milestone2_CSE151A_Group_Project_Amazon_Agent_Rating.ipynb)
+[Amazon Agent Rating Prediction Jupyter Notebook for Milestone 2](Milestone2_CSE151A_Group_Project_Amazon_Agent_Rating_submission.ipynb)
 
 # MILESTONE 3
 
