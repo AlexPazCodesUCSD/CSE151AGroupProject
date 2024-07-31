@@ -70,7 +70,7 @@ All code and Jupyter notebooks used in this project are uploaded to this reposit
 Here we can see how our model predicts agent ratings with Delivery_Time as the X-axis. We can see that our fitting line is cutting in between main clusters of actual ratings. This means our predictions are achieving a good mse since the distance between our line and actual ratings is minimized.
 
 ### Next models and because
-Right now we are considering more complex models from outside of class  that have the potential to achieve a tighter mse (think neural network or polynomial regression type models). We are also looking into using Randomforest and GBM models that can potentially get us an even tighter mse.
+Our current model is rather simple, so we want to get a more complex model to lower the MSE and produce more accurate predictions. We are thinking of a Randomforest or GBM model because those seem to be able to lower the error rate more than our current model, and our team wants to implement something that we have not seen implemented during class.
 
 ## PART 5 
 ### Training the Linear Regression Model
@@ -85,11 +85,9 @@ All code and Jupyter notebooks used in this milestone are uploaded to this repos
 
 ## PART 6
 ### Model Performance and Future Improvements
-Our initial linear regression model demonstrated good performance, achieving a low mean square error of around 0.08. The target variable, `Agent_Rating`, ranged from 2.5 to 5.0, and the model performed well within this narrow range. Analyzing the distribution of ratings in the dataset, we found that approximately 80% of the ratings were higher than or equal to 3.5. The model predicted these higher ratings accurately.
+Our initial linear regression model demonstrated good performance, achieving a low mean square error of around 0.08. The target variable, Agent_Rating, ranged from 2.5 to 5.0, and the model performed well within this narrow range. Analyzing the distribution of ratings in the dataset, we found that approximately 80% of the ratings were higher than or equal to 3.5. The model predicted these higher ratings accurately.
 
-However, the model's performance might be limited by its simplicity and the smaller amount of data for ratings between 0.0 and 3.5. To improve the model's performance on these lower ratings and potentially enhance overall accuracy, we could consider increasing the model's complexity. This could involve exploring more advanced regression techniques or incorporating additional features to capture more nuances in the data.
-
-Overall, the linear regression model serves as a solid starting point, and future iterations could build upon this foundation to achieve even better performance.
+However, the model's performance might be limited by its simplicity and the smaller amount of data for ratings between 0.0 and 3.5. When we improved the models complexity by adding a lot more features it lowered the mse by .006, which is not a lot for all the extra complexity. So it is definetly not overfiitng, however we will likely move on to a randomforest or GBM type model for our 2nd because we likely would not be able to get much more accuracy out of a simple Linear Regression type model since our model doesn't seem to be able to squeeze more performance out when we add complexity to it. One thing we are considering in the future is changing the way we measure the models by changing it so that there are bucket sizes so being able to see the effectiveness is clearer.
 
 ## QUICK OVERVIEW OF MILESTONE 3
 We completed major preprocessing of our dataset and trained our first model using linear regression. The model aimed to predict `Agent_Rating` based on `Agent_Age`, `Distance_Miles`, and `Delivery_Time`, achieving a mean square error of approximately 0.08898 on the training set and 0.08912 on the testing set. Next, we evaluated the performance of our linear regression model, noting its strong performance within the higher rating range (3.5 to 5.0). However, the model may not perform as well on lower ratings (0.0 to 3.5) due to its simplicity and the limited data in this range. We suggested increasing the model's complexity and incorporating additional features to improve accuracy.
