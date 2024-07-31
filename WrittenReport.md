@@ -36,7 +36,7 @@ For our project we decided to go with being able to predict an amazon delivery d
 
 ## METHODS
 
-### <u>**DATA EXPLORATION**</u> 
+### <u>DATA EXPLORATION</u> 
 The code performs several data exploration steps: 
 
 #### Distribution of Delivery Time
