@@ -253,3 +253,6 @@ The code performs several data exploration steps:
 Due to our dataset having Agent Ratings that only went from 2.5 to 5.0 and the lionshare of that being from 4.0 and up it made it so our predictions would mostly be in that area, and mostly be correct after a simple amount of work was done. So it did not feel too satisfying to have a very accurate model. To combat that future models could get a more proportionate dataset, scale the Agent Ratings differently, or penalize getting the lower appearing Agent Ratings wrong moreso than it is already penalized. 
 
 ## STATEMENT OF COLLABORATION
+
+### Aditya Saini
+In milestone 1, I drafted and submitted the abstract for our project, and contributed towards meetings/discussions for dataset selection. During milestone 2, I worked on data exploration and initial preprocessing of our dataset and furhter worked on updating the readme and final submission. For milestone 3, I finished with the preprocessing of our dataset and again contributed towards presenting results on the readme and final submission. And for the final milestone, I contributed towards the methods section in the report and setting up the final submission.
