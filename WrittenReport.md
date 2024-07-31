@@ -36,7 +36,7 @@ For our project we decided to go with being able to predict an amazon delivery d
 
 ## METHODS
 
-### DATA EXPLORATION 
+### <u>**DATA EXPLORATION**</u> 
 The code performs several data exploration steps: 
 
 #### Distribution of Delivery Time
@@ -57,7 +57,7 @@ The code performs several data exploration steps:
 #### Additional Visualizations
 - Scatter plots, box plots, and pair plots are used to explore relationships between various features and delivery time. For more details, see [Figure 6](#fig6) , [Figure 7](#fig7) , [Figure 8](#fig8) , [Figure 9](#fig9)
 
-### PREPROCESSING
+### <u>**PREPROCESSING**</u>
 
 #### Time-based Features
 - Hour of the day is extracted from 'Order_Time' and 'Pickup_Time'.
@@ -76,7 +76,7 @@ The code performs several data exploration steps:
 #### Feature Engineering
 - 'Day_of_Week' and 'Is_Weekend' features are created from 'Order_Date'.
 
-### MODELS
+### <u>**MODELS**</u>
 
 #### Linear Regression
 - A linear regression model is trained to predict 'Agent_Rating' using 'Agent_Age', 'Distance_Miles', and 'Delivery_Time' as features.
