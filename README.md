@@ -90,8 +90,6 @@ Our initial linear regression model demonstrated good performance, achieving a l
 
 However, the model's performance might be limited by its simplicity and the smaller amount of data for ratings between 0.0 and 3.5. When we improved the models complexity by adding a lot more features it lowered the mse by .006, which is not a lot for all the extra complexity. So it is definetly not overfiitng, however we will likely move on to a randomforest or GBM type model for our 2nd because we likely would not be able to get much more accuracy out of a simple Linear Regression type model since our model doesn't seem to be able to squeeze more performance out when we add complexity to it. One thing we are considering in the future is changing the way we measure the models by changing it so that there are bucket sizes so being able to see the effectiveness is clearer.
 
-Overall, the linear regression model serves as a solid starting point, and future iterations could build upon this foundation to achieve even better performance.
-
 ## QUICK OVERVIEW OF MILESTONE 3
 We completed major preprocessing of our dataset and trained our first model using linear regression. The model aimed to predict `Agent_Rating` based on `Agent_Age`, `Distance_Miles`, and `Delivery_Time`, achieving a mean square error of approximately 0.08898 on the training set and 0.08912 on the testing set. Next, we evaluated the performance of our linear regression model, noting its strong performance within the higher rating range (3.5 to 5.0). However, the model may not perform as well on lower ratings (0.0 to 3.5) due to its simplicity and the limited data in this range. We suggested increasing the model's complexity and incorporating additional features to improve accuracy.
 
