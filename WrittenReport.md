@@ -5,12 +5,14 @@ For our project we decided to go with being able to predict an amazon delivery d
 ## FIGURES
 
 ### Distribution of Delivery Time
-![Distribution of Delivery Time](Distribution%20of%20Delivery%20Time.png)
 <a name="fig1"></a>
+![Distribution of Delivery Time](Distribution%20of%20Delivery%20Time.png)
+
 
 ### Delivery Time vs Agent Rating (Methods Section)
-![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
 <a name="fig2"></a>
+![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
+
 
 ## METHODS
 
