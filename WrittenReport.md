@@ -34,6 +34,12 @@ For our project we decided to go with being able to predict an amazon delivery d
 ### Pair Plots <a name="fig9"></a>
 ![Pair Plots](Pair%20Plots.png)
 
+### Actual vs Predicted Agent Ratings (Model 1 Linear Regression) <a name="fig10"></a>
+![Actual vs Predicted Agent Ratings](Actual%20vs%20Predicted%20Agent%20Ratings.png)
+
+### Training vs Test Scores (Model 1 Linear Regression) <a name="fig11"></a>
+![Training vs Test Scores](Training%20vs%20Test%20Scores.png)
+
 ## METHODS
 
 ### <u>DATA EXPLORATION</u> 
