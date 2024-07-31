@@ -8,12 +8,20 @@ For our project we decided to go with being able to predict an amazon delivery d
 ![Distribution of Delivery Time](Distribution%20of%20Delivery%20Time.png)
 <a name="fig1"></a>
 
+### Delivery Time vs Agent Rating (Methods Section)
+![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
+<a name="fig2"></a>
+
 ## METHODS
 
 ### DATA EXPLORATION 
 The code performs several data exploration steps: 
 #### Distribution of Delivery Time
 - A histogram is plotted to visualize the distribution of delivery times. For more details, see [Figure 1](#fig1)
+
+#### Relationship between Delivery Time and Agent Rating
+- A scatter plot is used to explore the relationship between delivery time and agent ratings. For more details, see [Figure 1](#fig2)
+
 
 ### Delivery Time vs Agent Rating (Methods Section)
  ![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
