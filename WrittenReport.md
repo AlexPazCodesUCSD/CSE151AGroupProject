@@ -44,5 +44,6 @@ For our project we decided to go with being able to predict an amazon delivery d
 ## DISCUSSION
 
 ## CONCLUSION
+Due to our dataset having Agent Ratings that only went from 2.5 to 5.0 and the lionshare of that being from 4.0 and up it made it so our predictions would mostly be in that area, and mostly be correct after a simple amount of work was done. So it did not feel too satisfying to have a very accurate model. To combat that future models could get a more proportionate dataset, scale the Agent Ratings differently, or penalize getting the lower appearing Agent Ratings wrong moreso than it is already penalized. 
 
 ## STATEMENT OF COLLABORATION
