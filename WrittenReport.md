@@ -9,18 +9,14 @@ For our project we decided to go with being able to predict an amazon delivery d
 ### Delivery Time vs Agent Rating <a name="fig2"></a>
 ![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
 
-
 ### Impact of Weather on Delivery Time <a name="fig3"></a>
 ![Impact of Weather on Delivery Time](Impact%20of%20Weather%20on%20Delivery%20Time.png)
-
 
 ### Distribution of Agent Ratings <a name="fig4"></a>
 ![Distribution of Agent Ratings](Distribution%20of%20Agent%20Ratings.png)
 
-
 ### Correlation Heatmap <a name="fig5"></a>
 ![Correlation Heatmap](Correlation%20Heatmap.png)
-
  
 ### Boxplot of Delivery Time <a name="fig6"></a>
 ![Boxplot of Delivery Time](Boxplot%20of%20Delivery%20Time.png)
@@ -39,6 +35,24 @@ For our project we decided to go with being able to predict an amazon delivery d
 
 ### Training vs Test Scores (Model 1 Linear Regression) <a name="fig11"></a>
 ![Training vs Test Scores](Training%20vs%20Test%20Scores.png)
+
+### Actual vs Predicted Agent Ratings (Model 2 Random Trees) <a name="fig12"></a>
+![Actual vs Predicted Agent Ratings](Model2_Predict_Line_Graph.JPG)
+
+### Training vs Test Scores (Model 2 Random Trees) <a name="fig13"></a>
+![Training vs Test Scores](Model2_MSE.JPG)
+
+### Feature Importance (Model 2 Random Trees) <a name="fig14"></a>
+![Feature Importance](Model2_Feature_Importance.JPG)
+
+### Actual vs Predicted Agent Ratings (Model 3 Random Trees) <a name="fig15"></a>
+![Actual vs Predicted Agent Ratings](Model3_Predict_Line_Graph.JPG)
+
+### Training vs Test Scores (Model 3 Random Trees) <a name="fig16"></a>
+![Training vs Test Scores](Model3_MSE.JPG)
+
+### Feature Importance (Model 3 Random Trees) <a name="fig17"></a>
+![Feature Importance](Model3_Feature_Importance.JPG)
 
 ## METHODS
 
