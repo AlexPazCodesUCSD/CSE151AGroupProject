@@ -14,7 +14,7 @@ For our project we decided to go with being able to predict an amazon delivery d
 The code performs several data exploration steps: 
 #### Distribution of Delivery Time
 - A histogram is plotted to visualize the distribution of delivery times.
-[Reference](#Distribution_of_Delivery_Time)
+[Reference](#fig1)
 
 ### Delivery Time vs Agent Rating (Methods Section)
  ![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
