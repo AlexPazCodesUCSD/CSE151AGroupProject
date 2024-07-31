@@ -100,7 +100,7 @@ We completed major preprocessing of our dataset and trained our first model usin
 [Milestone 1: Abstract](#ABSTRACT)    
 [Milestone 2: Data Exploration & Initial Preprocessing](#MILESTONE-2)  
 [Milestone 3: Pre-Processing](#MILESTONE-3)  
-[Milestone 3: Final Submission](#MILESTONE-4)  
+[Milestone 4: Final Submission](#MILESTONE-4)  
 
 ## ALL CODE
 [All code categorized by milestone in the repository](https://github.com/AlexPazCodesUCSD/CSE151AGroupProject)  
