@@ -4,10 +4,16 @@
 For our project we decided to go with being able to predict an amazon delivery drivers agent based off of several metrics. We chose to predict on this because a delivery drivers rating is one of the main differentiating factors between other delivery drivers, so we wanted to see just how much weight should be place on those ratings when considering the optimal delivery driver. Our project is cool because it really gives a good understanding of how the rating system actually works and what metrics are most important, like how agent age is actually the 2nd most correlated with agent rating. The broader impact of having a good predictive model of Agent Rating is companies and drivers will know what to prioritize for better customer reviews, and the factors in what may cause one driver to be more suited for a job over another.
 ## FIGURES
 
+### Distribution of Delivery Time
+![Distribution of Delivery Time](Distribution%20of%20Delivery%20Time.png)
+
 ## METHODS
 
-### Distribution of Delivery Time (Methods Section)
-![Distribution of Delivery Time](Distribution%20of%20Delivery%20Time.png)
+### DATA EXPLORATION 
+The code performs several data exploration steps: 
+#### Distribution of Delivery Time
+- A histogram is plotted to visualize the distribution of delivery times.
+![Reference](#DISTRIBUTION_OF_DELIVERY_TIME)
 
 ### Delivery Time vs Agent Rating (Methods Section)
  ![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
