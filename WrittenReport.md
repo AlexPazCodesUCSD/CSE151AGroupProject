@@ -6,7 +6,40 @@ For our project we decided to go with being able to predict an amazon delivery d
 
 ## METHODS
 
+### Distribution of Delivery Time (Methods Section)
+![Distribution of Delivery Time](Distribution%20of%20Delivery%20Time.png)
+
+### Delivery Time vs Agent Rating (Methods Section)
+ ![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
+
+### Impact of Weather on Delivery Time (Methods Section)
+![Impact of Weather on Delivery Time](Impact%20of%20Weather%20on%20Delivery%20Time.png)
+
+### Distribution of Agent Ratings (Methods Section)
+![Distribution of Agent Ratings](Distribution%20of%20Agent%20Ratings.png)
+
+### Correlation Heatmap (Methods Section)
+![Correlation Heatmap](Correlation%20Heatmap.png)
+ 
+### Boxplot of Delivery Time (Methods Section)
+![Boxplot of Delivery Time](Boxplot%20of%20Delivery%20Time.png)
+
+### Distance vs Delivery Time (Methods Section)
+![Distance vs Delivery Time](Distance%20vs%20Delivery%20Time.png)
+
+### Delivery Season vs Delivery Time (Methods Section)
+![Delivery Season vs Delivery Time](Delivery%20Season%20vs%20Delivery%20Time.png)
+
+### Pair Plots (Methods Section)
+![Pair Plots](Pair%20Plots.png)
+
 ## RESULTS
+
+### Actual vs Predicted Agent Ratings (Model 1 Linear Regression)
+![Actual vs Predicted Agent Ratings](Actual%20vs%20Predicted%20Agent%20Ratings.png)
+
+### Training vs Test Scores (Model 1 Linear Regression)
+![Training vs Test Scores](Training%20vs%20Test%20Scores.png)
 
 ## DISCUSSION
 
