@@ -25,9 +25,6 @@ The code performs several data exploration steps:
 - A scatter plot is used to explore the relationship between delivery time and agent ratings. For more details, see [Figure 1](#fig2)
 
 
-### Delivery Time vs Agent Rating (Methods Section)
- ![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
-
 ### Impact of Weather on Delivery Time (Methods Section)
 ![Impact of Weather on Delivery Time](Impact%20of%20Weather%20on%20Delivery%20Time.png)
 
