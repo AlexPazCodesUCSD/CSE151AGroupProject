@@ -348,7 +348,7 @@ Although we do not expect our models to be 100% accurate or perform superbly wel
 ### Aditya Saini (Project Leader, ML engineer) 
 In milestone 1, I drafted and submitted the abstract for our project, and contributed towards meetings/discussions for dataset selection. During milestone 2, I worked on data exploration and initial preprocessing of our dataset and furhter worked on updating the readme and final submission. For milestone 3, I finished with the preprocessing of our dataset and again contributed towards presenting results on the readme and final submission. And for the final milestone, I contributed towards the methods section in the report and setting up the final submission.
 
-### Ivan Binet Sanchez
+### Ivan Binet Sanchez (Part-Programmer & Part-Writer)
 In Milestone 1, I submitted the dataset that we ended up basing our project around for the group to decide on. During milestone 2 I just attended the discussion and reviewed the code, as the part I was assigned to was spread to different members and they finished it. In milestone 3 I looked at the mse of our first model and made the fitting graph as well as the updated conclusion(for regrade and final submission). On Milestone 4 I worked on the Conclusion and Introduction parts of the WrittenReport. 
 
 ### Boyang Yu
