@@ -262,18 +262,77 @@ The code performs several data exploration steps:
 ## RESULTS
 ### <u>DATA EXPLORATION</u> 
 
+### <u>**PREPROCESSING**</u>
+Most of the functions in this section are unimportant, but there were a few which gave us a glimpse at possible trends in our data.
+
+### Distribution of Agent Ratings
+[Figure 4](#fig4)
 After removing features with missing values, we lost 265 observations. This meant we were confident that our data was very clean and we felt good about using it for our project.
 
-### <u>**PREPROCESSING**</u>
+### Correlation heatmap
+[Figure 5](#fig5)
+Here is our first correlation heatmap. It does not include the one-hot encoded features (The figure for that is quite large.  We can see here that Delivery_Time has the largest correlation, with Agent_Age in 2nd place for highest correlation.
 
+### Pairplots
+[Figure 9](#fig9)
+Here is our pairplot, which lacks any linear relations. However we see an interesting, almost linearly decreasing form in Agent_Rating and Delivery_Time’s pairplot. We would also see that the younger an agent was, the higher chance they will have a lower rating.
 
 ### <u>**MODELS**</u>
 
+#### Linear Regression
+[Figure 10](#fig10)
+Because graphing the performance of our model in predicting Agent_Rating isn’t straightforward, we opted to present our data in the form of Agent Rating sorted by Delivery Time. This way we can see how the predicted ratings line is following the density of the actual ratings. From the graph, it looks like our linear regression model is just averaging the spread of agent rating to delivery times, not doing any actual predicting.
+
+[Figure 11](#fig11)
+Our MSE here is nothing to note. We do have a nice 0.08 MSE for both training and testing, so we can cross out any worries of overfitting. However our R2 could be improved upon.
+
+#### Random Forest Regressor
+
+[Figure 12](#fig12)
+Here we see our model’s actual vs predicted agent ratings graph looks significantly different when running Random Forest model. We see it match the shape of the actual ratings better, likely due to how Random Forest utilizes a bagging approach. We now see that the spike around Deliver_Time = 40 that our predicted rating spikes up as well, which our linear regression model did not do before. 
+
+[Figure 13](#fig13)
+As you can see our MSE has become a lot smaller! We now have a training MSE close to 0.0 and a testing MSE of 0.01.
+
+[Figure 14](#fig14)
+We thought it would be nice to list out the important features that the RandomForestRegressor used, to sort of imagine what the tree looked like. We imagine Delivery_Time make up the first splitting of the tree, then branched from Distance_Miles, and so on.
+
+#### Gradient Boosting Regressor
+
+[Figure 15](#fig15)
+Unfortunately, our GBM model is not significantly better than randomTrees. Even with hyperparameter tuning the number of estimators, the learning rate, and subsamples. We can safely say that we learned a nice lesson in both the power of randomTrees as well as how GBM does not always guarantee the best results. We also found that running GBM took about an hour to run, because of hyperparameter tuning. This made testing it a hassle, but not something our team couldn’t manage. 
+
+[Figure 16](#fig16)
+Our training and testing MSE or R2 look no different from the randomTrees model MSE.
+
+[Figure 17](#fig17)
+This is no different from our RandomTrees feature importance graph either.
 
 ## DISCUSSION
 
+### <u>DATA EXPLORATION</u> 
+When first choosing our data, we believed that we had picked a good, and proper data set. However we would not see the faults in the data set yet. We were happy with how well made the dataset was, having only a few hundred observations with missing features. We now know that an even larger dataset works wonders, as the chances for more variety in all features is larger, meaning we can find greater correlations to the data and build a more specific model. 
+
+### <u>PREPROCESSING</u> 
+In preprocessing was when we would find that our Agent Rating feature was heavily biased within our dataset. It seems when making models to predict ratings, the lack of low ratings really makes it hard to have an unbiased dataset and a more accurate model. We would also begin to stress when we would look at our correlation map. We had few high correlations, and this wouldn’t help the concerns of our biased agent rating feature. I think that this challenging environment invited a challenge for our team as well as a lesson on the importance of the quality of a dataset. 
+
+### <u>MODELS</u> 
+
+### Linear Regression Model
+For our first model the team saw it was most reasonable to run a linear regression model on our dataset to predict Agent Rating. We based this on the fact that the only significant correlation in our map had an almost linear correlation, and we were most familiar with how to make this model from class. We would set up the model and find that it had a pretty low MSE. However, the prediction graph proved to be quite unsatisfactory, as our model seemed to be averaging the star ratings for each delivery time increment and not doing any meaningful predictions. 
+
+We were in a bit of a slump for what to do next and had a hard time dealing with our imperfect data. We took a suggestion from office hours to categorize our data into buckets. We had an initial test of this method but it made our MSE a lot worse and we were backtracking a lot so we scrapped the idea. It wasn’t until our team member, Khai, tried a bunch of different models and shared his results where we found a promising model. He suggested we try bagging models that use ensemble techniques to counteract our skewed dataset. Essentially, ensemble learning combines the predictions of multiple models to improve performance, robustness, and accuracy compared to an individual model. After getting our results we were happy to see our model start to finally predict.
+
+### Random Forest Regressor
+When we first researched randomTrees we were very happy to find that implementing them was not very difficult. It also did not demand too many resources, and we were able to get our improved MSE very quickly. It wouldn’t be until Week 4 that we would fully understand the power of randomTrees. We knew that it helped improve accuracy, and our models finally looks like it’s predicting.
+
+### Gradient Boosting Regressor
+After randomTrees, our group believed trying another model would be best. We wanted to experiment with hyper-parameterization, and our group member Khai was told about GBM. From a brief demonstration we saw that GBM took a very long time to run. This made us worried about working with it, since each test would take roughly an hour to get results. When we did get the results, we found that even with hyper-parameterization, the model was only slightly better than our RandomTrees model. We considered this enough model testing, since we already had a very good MSE and R2 score. 
+
 ## CONCLUSION
 Due to our dataset having Agent Ratings that only went from 2.5 to 5.0 and the lionshare of that being from 4.0 and up it made it so our predictions would mostly be in that area, and mostly be correct after a simple amount of work was done. So it did not feel too satisfying to have a very accurate model. To combat that future models could get a more proportionate dataset, scale the Agent Ratings differently, or penalize getting the lower appearing Agent Ratings wrong moreso than it is already penalized. 
+
+Although we do not expect our models to be 100% accurate or perform superbly well. We did expect a nice distribution of prediction results. However, from the delivery_time vs prediction rating graphs of model 2 and 3. We see the glaring issue of a hard cut off for how high of a star_rating our model can predict. It seems like our model is not sophisticated enough to predict 5 star ratings. We attribute this fact to the tendency to just give 5 star ratings as default, without any underlying reasons to. We believe it is difficult for a ML model to see this as machine learning needs the feed of data.
 
 ## STATEMENT OF COLLABORATION
 
