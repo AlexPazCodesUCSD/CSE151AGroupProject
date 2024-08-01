@@ -63,7 +63,7 @@ The broader impact of developing an accurate predictive model for agent ratings 
 
 ## METHODS
 
-### <u>DATA EXPLORATION</u> 
+### DATA EXPLORATION 
 The code performs several data exploration steps: 
 
 #### Distribution of Delivery Time
@@ -130,7 +130,7 @@ The code performs several data exploration steps:
      sns.pairplot(data[['Agent_Age', 'Agent_Rating', 'Distance_Miles', 'Delivery_Time']])
      plt.show()
 
-### <u>**PREPROCESSING**</u>
+### PREPROCESSING
 
 #### Time-based Features
 - Hour of the day is extracted from 'Order_Time' and 'Pickup_Time'.
@@ -176,7 +176,7 @@ The code performs several data exploration steps:
 - ```data['Day_of_Week'] = data['Order_Date'].dt.dayofweek
      data['Is_Weekend'] = data['Day_of_Week'].apply(lambda x: 1 if x >= 5 else 0)
 
-### <u>**MODELS**</u>
+### MODELS
 
 #### Linear Regression
 - A linear regression model is trained to predict 'Agent_Rating' using 'Agent_Age', 'Distance_Miles', and 'Delivery_Time' as features.
@@ -333,13 +333,13 @@ For our first model the team saw it was most reasonable to run a linear regressi
 
 We were in a bit of a slump for what to do next and had a hard time dealing with our imperfect data. We took a suggestion from office hours to categorize our data into buckets. We had an initial test of this method but it made our MSE a lot worse and we were backtracking a lot so we scrapped the idea. It wasn’t until our team member, Khai, tried a bunch of different models and shared his results where we found a promising model. He suggested we try bagging models that use ensemble techniques to counteract our skewed dataset. Essentially, ensemble learning combines the predictions of multiple models to improve performance, robustness, and accuracy compared to an individual model. After getting our results we were happy to see our model start to finally predict.
 
-### Bagging/Ensemble Learning
+#### Bagging/Ensemble Learning 
 In our model, the skewed distribution of star rating led to biased prediction when using a singular model like linear regression(in our case the bias was towards an average). We believed that this overfit the majority class and underrepresented the minority class. We chose to leverage ensemble learning, particularly bootstrap aggregation, or bagging, to mitigate this issue. Essentially, we are generating multiple subsets of training data through random sampling, then we train a model for each subset before combining their outputs. This process was effective in reducing our variance and enhanced our model’s robustness for skewed data. We used Random Forest and Gradient Boosting Machines to capture the complex patterns in our data and improve generalization. This gave us more balanced predictions as it reduced the likelihood of our model being overly influenced by the majority class.
 
-#### Random Forest Regressor
+#### Random Forest Regressor Model
 When we first researched randomTrees we were very happy to find that implementing them was not very difficult. It also did not demand too many resources, and we were able to get our improved MSE very quickly. It wouldn’t be until Week 4 that we would fully understand the power of randomTrees. We knew that it helped improve accuracy, and our models finally looks like it’s predicting.
 
-#### Gradient Boosting Regressor
+#### Gradient Boosting Regressor Model
 After randomTrees, our group believed trying another model would be best. We wanted to experiment with hyper-parameterization, and our group member Khai was told about GBM. From a brief demonstration we saw that GBM took a very long time to run. This made us worried about working with it, since each test would take roughly an hour to get results. When we did get the results, we found that even with hyper-parameterization, the model was only slightly better than our RandomTrees model. We considered this enough model testing, since we already had a very good MSE and R2 score. 
 
 ## CONCLUSION
