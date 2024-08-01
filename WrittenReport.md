@@ -274,7 +274,7 @@ Due to our dataset having Agent Ratings that only went from 2.5 to 5.0 and the l
 
 ## STATEMENT OF COLLABORATION
 
-### Aditya Saini
+### Aditya Saini (Project Leader, ML engineer) 
 In milestone 1, I drafted and submitted the abstract for our project, and contributed towards meetings/discussions for dataset selection. During milestone 2, I worked on data exploration and initial preprocessing of our dataset and furhter worked on updating the readme and final submission. For milestone 3, I finished with the preprocessing of our dataset and again contributed towards presenting results on the readme and final submission. And for the final milestone, I contributed towards the methods section in the report and setting up the final submission.
 
 ### Ivan Binet Sanchez
