@@ -280,3 +280,6 @@ In milestone 1, I drafted and submitted the abstract for our project, and contri
 ### Ivan Binet Sanchez
 In Milestone 1, I submitted the dataset that we ended up basing our project around for the group to decide on. During milestone 2 I just attended the discussion and reviewed the code, as the part I was assigned to was spread to different members and they finished it. In milestone 3 I looked at the mse of our first model and made the fitting graph as well as the updated conclusion(for regrade and final submission). On Milestone 4 I worked on the Conclusion and Introduction parts of the WrittenReport. 
 
+### Boyang Yu
+In Milestone 1, I contributed towards meetings and discussion for dataset selection, and I reviewed the abstract for our project. During Milestone 2, I attended the discussion and review the code. I was assigned to do part 5, which is to summarize what we have done for Milestone 2 as a group, especially what we have done for preprocessing the data. In Milestone 3, I was assigned to do part 5 and 6, which I summarize what we have done for the Milestone 3, explaining why we choose our Model 1 and analyzing and interpreting the result we got for Model 1. On Milestone 4, I upload all the figures we have made for each steps and for result getting from our model. I have also make figures for results getting from Model 2.
+
