@@ -11,55 +11,55 @@ The broader impact of developing an accurate predictive model for agent ratings 
 ![Distribution of Delivery Time](figures/Distribution%20of%20Delivery%20Time.png)
 
 ### Fig. 2) Delivery Time vs Agent Rating <a name="fig2"></a>
-![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
+![Delivery Time vs Agent Rating](figures/Delivery%20Time%20vs.%20Agent%20Rating.png)
 
 ### Fig. 3) Impact of Weather on Delivery Time <a name="fig3"></a>
-![Impact of Weather on Delivery Time](Impact%20of%20Weather%20on%20Delivery%20Time.png)
+![Impact of Weather on Delivery Time](figures/Impact%20of%20Weather%20on%20Delivery%20Time.png)
 
 ### Fig. 4) Distribution of Agent Ratings <a name="fig4"></a>
-![Distribution of Agent Ratings](Distribution%20of%20Agent%20Ratings.png)
+![Distribution of Agent Ratings](figures/Distribution%20of%20Agent%20Ratings.png)
 
 ### Fig. 5) Correlation Heatmap <a name="fig5"></a>
-![Correlation Heatmap](Correlation%20Heatmap.png)
+![Correlation Heatmap](figures/Correlation%20Heatmap.png)
  
 ### Fig. 6) Boxplot of Delivery Time <a name="fig6"></a>
-![Boxplot of Delivery Time](Boxplot%20of%20Delivery%20Time.png)
+![Boxplot of Delivery Time](figures/Boxplot%20of%20Delivery%20Time.png)
 
 ### Fig. 7) Distance vs Delivery Time <a name="fig7"></a>
-![Distance vs Delivery Time](Distance%20vs%20Delivery%20Time.png)
+![Distance vs Delivery Time](figures/Distance%20vs%20Delivery%20Time.png)
 
 ### Fig. 8) Delivery Season vs Delivery Time <a name="fig8"></a>
-![Delivery Season vs Delivery Time](Delivery%20Season%20vs%20Delivery%20Time.png)
+![Delivery Season vs Delivery Time](figures/Delivery%20Season%20vs%20Delivery%20Time.png)
 
 ### Fig. 9) Pair Plots <a name="fig9"></a>
-![Pair Plots](Pair%20Plots.png)
+![Pair Plots](figures/Pair%20Plots.png)
 
 ### Fig. 10) Actual vs Predicted Agent Ratings (Model 1 Linear Regression) <a name="fig10"></a>
-![Actual vs Predicted Agent Ratings](Actual%20vs%20Predicted%20Agent%20Ratings.png)
+![Actual vs Predicted Agent Ratings](figures/Actual%20vs%20Predicted%20Agent%20Ratings.png)
 
 ### Fig. 11) Training vs Test Scores (Model 1 Linear Regression) <a name="fig11"></a>
-![Training vs Test Scores](Training%20vs%20Test%20Scores.png)
+![Training vs Test Scores](figures/Training%20vs%20Test%20Scores.png)
 
 ### Fig. 12) Actual vs Predicted Agent Ratings (Model 2 Random Trees) <a name="fig12"></a>
-![Actual vs Predicted Agent Ratings](Model2_Predict_Line_Graph.JPG)
+![Actual vs Predicted Agent Ratings](figures/Model2_Predict_Line_Graph.JPG)
 
 ### Fig. 13) Training vs Test Scores (Model 2 Random Trees) <a name="fig13"></a>
-![Training vs Test Scores](Model2_MSE.JPG)
+![Training vs Test Scores](figures/Model2_MSE.JPG)
 
 ### Fig. 14) Feature Importance (Model 2 Random Trees) <a name="fig14"></a>
-![Feature Importance](Model2_Feature_Importance.JPG)
+![Feature Importance](figures/Model2_Feature_Importance.JPG)
 
 ### Fig. 15) Actual vs Predicted Agent Ratings (Model 3 Random Trees) <a name="fig15"></a>
-![Actual vs Predicted Agent Ratings](Model3_Predict_Line_Graph.JPG)
+![Actual vs Predicted Agent Ratings](figures/Model3_Predict_Line_Graph.JPG)
 
 ### Fig. 16) Training vs Test Scores (Model 3 Random Trees) <a name="fig16"></a>
-![Training vs Test Scores](Model3_MSE.JPG)
+![Training vs Test Scores](figures/Model3_MSE.JPG)
 
 ### Fig. 17) Feature Importance (Model 3 Random Trees) <a name="fig17"></a>
-![Feature Importance](Model3_Feature_Importance.JPG)
+![Feature Importance](figures/Model3_Feature_Importance.JPG)
 
 ### Fig. 18) Missing Features from Data Exploration <a name="fig18"></a>
-![Missing Features](Missing_features.JPG)
+![Missing Features](figures/Missing_features.JPG)
 
 ## METHODS
 
