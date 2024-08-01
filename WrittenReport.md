@@ -8,7 +8,7 @@ Our project is particularly intriguing because it provides deep insights into th
 The broader impact of developing an accurate predictive model for agent ratings is substantial. For companies, it offers a clearer understanding of what to prioritize to enhance customer satisfaction. For drivers, it highlights key areas they should focus on to improve their ratings. Overall, a reliable predictive model can ensure that the most suitable drivers are assigned to deliveries, leading to better customer experiences and more efficient operations.
 ## FIGURES
 ### Fig. 1) Distribution of Delivery Time <a name="fig1"></a>
-![Distribution of Delivery Time](Distribution%20of%20Delivery%20Time.png)
+![Distribution of Delivery Time](figures/Distribution%20of%20Delivery%20Time.png)
 
 ### Fig. 2) Delivery Time vs Agent Rating <a name="fig2"></a>
 ![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
