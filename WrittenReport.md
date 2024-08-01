@@ -3,55 +3,55 @@
 ## INTRODUCTION
 For our project we decided to go with being able to predict an amazon delivery drivers agent based off of several metrics. We chose to predict on this because a delivery drivers rating is one of the main differentiating factors between other delivery drivers, so we wanted to see just how much weight should be place on those ratings when considering the optimal delivery driver. Our project is cool because it really gives a good understanding of how the rating system actually works and what metrics are most important, like how agent age is actually the 2nd most correlated with agent rating. The broader impact of having a good predictive model of Agent Rating is companies and drivers will know what to prioritize for better customer reviews, and the factors in what may cause one driver to be more suited for a job over another.
 ## FIGURES
-### Distribution of Delivery Time <a name="fig1"></a>
+### Fig. 1) Distribution of Delivery Time <a name="fig1"></a>
 ![Distribution of Delivery Time](Distribution%20of%20Delivery%20Time.png)
 
-### Delivery Time vs Agent Rating <a name="fig2"></a>
+### Fig. 2) Delivery Time vs Agent Rating <a name="fig2"></a>
 ![Delivery Time vs Agent Rating](Delivery%20Time%20vs.%20Agent%20Rating.png)
 
-### Impact of Weather on Delivery Time <a name="fig3"></a>
+### Fig. 3) Impact of Weather on Delivery Time <a name="fig3"></a>
 ![Impact of Weather on Delivery Time](Impact%20of%20Weather%20on%20Delivery%20Time.png)
 
-### Distribution of Agent Ratings <a name="fig4"></a>
+### Fig. 4) Distribution of Agent Ratings <a name="fig4"></a>
 ![Distribution of Agent Ratings](Distribution%20of%20Agent%20Ratings.png)
 
-### Correlation Heatmap <a name="fig5"></a>
+### Fig. 5) Correlation Heatmap <a name="fig5"></a>
 ![Correlation Heatmap](Correlation%20Heatmap.png)
  
-### Boxplot of Delivery Time <a name="fig6"></a>
+### Fig. 6) Boxplot of Delivery Time <a name="fig6"></a>
 ![Boxplot of Delivery Time](Boxplot%20of%20Delivery%20Time.png)
 
-### Distance vs Delivery Time <a name="fig7"></a>
+### Fig. 7) Distance vs Delivery Time <a name="fig7"></a>
 ![Distance vs Delivery Time](Distance%20vs%20Delivery%20Time.png)
 
-### Delivery Season vs Delivery Time <a name="fig8"></a>
+### Fig. 8) Delivery Season vs Delivery Time <a name="fig8"></a>
 ![Delivery Season vs Delivery Time](Delivery%20Season%20vs%20Delivery%20Time.png)
 
-### Pair Plots <a name="fig9"></a>
+### Fig. 9) Pair Plots <a name="fig9"></a>
 ![Pair Plots](Pair%20Plots.png)
 
-### Actual vs Predicted Agent Ratings (Model 1 Linear Regression) <a name="fig10"></a>
+### Fig. 10) Actual vs Predicted Agent Ratings (Model 1 Linear Regression) <a name="fig10"></a>
 ![Actual vs Predicted Agent Ratings](Actual%20vs%20Predicted%20Agent%20Ratings.png)
 
-### Training vs Test Scores (Model 1 Linear Regression) <a name="fig11"></a>
+### Fig. 11) Training vs Test Scores (Model 1 Linear Regression) <a name="fig11"></a>
 ![Training vs Test Scores](Training%20vs%20Test%20Scores.png)
 
-### Actual vs Predicted Agent Ratings (Model 2 Random Trees) <a name="fig12"></a>
+### Fig. 12) Actual vs Predicted Agent Ratings (Model 2 Random Trees) <a name="fig12"></a>
 ![Actual vs Predicted Agent Ratings](Model2_Predict_Line_Graph.JPG)
 
-### Training vs Test Scores (Model 2 Random Trees) <a name="fig13"></a>
+### Fig. 13) Training vs Test Scores (Model 2 Random Trees) <a name="fig13"></a>
 ![Training vs Test Scores](Model2_MSE.JPG)
 
-### Feature Importance (Model 2 Random Trees) <a name="fig14"></a>
+### Fig. 14) Feature Importance (Model 2 Random Trees) <a name="fig14"></a>
 ![Feature Importance](Model2_Feature_Importance.JPG)
 
-### Actual vs Predicted Agent Ratings (Model 3 Random Trees) <a name="fig15"></a>
+### Fig. 15) Actual vs Predicted Agent Ratings (Model 3 Random Trees) <a name="fig15"></a>
 ![Actual vs Predicted Agent Ratings](Model3_Predict_Line_Graph.JPG)
 
-### Training vs Test Scores (Model 3 Random Trees) <a name="fig16"></a>
+### Fig. 16) Training vs Test Scores (Model 3 Random Trees) <a name="fig16"></a>
 ![Training vs Test Scores](Model3_MSE.JPG)
 
-### Feature Importance (Model 3 Random Trees) <a name="fig17"></a>
+### Fig. 17) Feature Importance (Model 3 Random Trees) <a name="fig17"></a>
 ![Feature Importance](Model3_Feature_Importance.JPG)
 
 ## METHODS
@@ -260,12 +260,15 @@ The code performs several data exploration steps:
 
 
 ## RESULTS
+### <u>DATA EXPLORATION</u> 
 
-### Actual vs Predicted Agent Ratings (Model 1 Linear Regression)
-![Actual vs Predicted Agent Ratings](Actual%20vs%20Predicted%20Agent%20Ratings.png)
+After removing features with missing values, we lost 265 observations. This meant we were confident that our data was very clean and we felt good about using it for our project.
 
-### Training vs Test Scores (Model 1 Linear Regression)
-![Training vs Test Scores](Training%20vs%20Test%20Scores.png)
+### <u>**PREPROCESSING**</u>
+
+
+### <u>**MODELS**</u>
+
 
 ## DISCUSSION
 
