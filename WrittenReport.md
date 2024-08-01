@@ -263,6 +263,7 @@ The code performs several data exploration steps:
 
 
 ## RESULTS
+
 ### <u>DATA EXPLORATION</u> 
 [Figure 18](#fig18)
 After removing features with missing values, we lost 265 observations. This meant we were confident that our data was very clean and we felt good about using it for our project.
@@ -270,15 +271,15 @@ After removing features with missing values, we lost 265 observations. This mean
 ### <u>**PREPROCESSING**</u>
 Most of the functions in this section are unimportant, but there were a few which gave us a glimpse at possible trends in our data.
 
-### Distribution of Agent Ratings
+#### Distribution of Agent Ratings
 [Figure 4](#fig4)
 After removing features with missing values, we lost 265 observations. This meant we were confident that our data was very clean and we felt good about using it for our project.
 
-### Correlation heatmap
+#### Correlation heatmap
 [Figure 5](#fig5)
 Here is our first correlation heatmap. It does not include the one-hot encoded features (The figure for that is quite large.  We can see here that Delivery_Time has the largest correlation, with Agent_Age in 2nd place for highest correlation.
 
-### Pairplots
+#### Pairplots
 [Figure 9](#fig9)
 Here is our pairplot, which lacks any linear relations. However we see an interesting, almost linearly decreasing form in Agent_Rating and Delivery_Time’s pairplot. We would also see that the younger an agent was, the higher chance they will have a lower rating.
 
@@ -323,15 +324,15 @@ In preprocessing was when we would find that our Agent Rating feature was heavil
 
 ### <u>MODELS</u> 
 
-### Linear Regression Model
+#### Linear Regression Model
 For our first model the team saw it was most reasonable to run a linear regression model on our dataset to predict Agent Rating. We based this on the fact that the only significant correlation in our map had an almost linear correlation, and we were most familiar with how to make this model from class. We would set up the model and find that it had a pretty low MSE. However, the prediction graph proved to be quite unsatisfactory, as our model seemed to be averaging the star ratings for each delivery time increment and not doing any meaningful predictions. 
 
 We were in a bit of a slump for what to do next and had a hard time dealing with our imperfect data. We took a suggestion from office hours to categorize our data into buckets. We had an initial test of this method but it made our MSE a lot worse and we were backtracking a lot so we scrapped the idea. It wasn’t until our team member, Khai, tried a bunch of different models and shared his results where we found a promising model. He suggested we try bagging models that use ensemble techniques to counteract our skewed dataset. Essentially, ensemble learning combines the predictions of multiple models to improve performance, robustness, and accuracy compared to an individual model. After getting our results we were happy to see our model start to finally predict.
 
-### Random Forest Regressor
+#### Random Forest Regressor
 When we first researched randomTrees we were very happy to find that implementing them was not very difficult. It also did not demand too many resources, and we were able to get our improved MSE very quickly. It wouldn’t be until Week 4 that we would fully understand the power of randomTrees. We knew that it helped improve accuracy, and our models finally looks like it’s predicting.
 
-### Gradient Boosting Regressor
+#### Gradient Boosting Regressor
 After randomTrees, our group believed trying another model would be best. We wanted to experiment with hyper-parameterization, and our group member Khai was told about GBM. From a brief demonstration we saw that GBM took a very long time to run. This made us worried about working with it, since each test would take roughly an hour to get results. When we did get the results, we found that even with hyper-parameterization, the model was only slightly better than our RandomTrees model. We considered this enough model testing, since we already had a very good MSE and R2 score. 
 
 ## CONCLUSION
