@@ -77,7 +77,7 @@ The code performs several data exploration steps:
 
 
 #### Relationship between Delivery Time and Agent Rating
-- A scatter plot is used to explore the relationship between delivery time and agent ratings. For more details, see [Figure 2](#fig2)
+- A scatter plot is used to explore the relationship between delivery time and agent ratings. For more details, [Figure 2](#fig2)
 - ```plt.figure(figsize=(10, 6))
      sns.scatterplot(x='Agent_Rating', y='Delivery_Time', data=data)
      plt.title('Delivery Time vs. Agent Rating')
@@ -86,7 +86,7 @@ The code performs several data exploration steps:
      plt.show()
 
 #### Impact of Weather on Delivery Time
-- A box plot shows how different weather conditions affect delivery times. For more details, see [Figure 3](#fig3)
+- A box plot shows how different weather conditions affect delivery times. For more, see [Figure 3](#fig3)
 - ```plt.figure(figsize=(10, 6))
      sns.boxplot(x='Weather', y='Delivery_Time', data=data)
      plt.title('Impact of Weather on Delivery Time')
@@ -104,7 +104,7 @@ The code performs several data exploration steps:
      plt.show()
 
 #### Correlation Heatmap
-- A heatmap is generated to visualize correlations between numerical features, including one-hot encoded features. For more details, see [Figure 5](#fig5)
+- A heatmap is generated to visualize correlations between numerical features, including one-hot encoded features. Refer to [Figure 5](#fig5)
 - ```plt.figure(figsize=(12, 8))
      corr_matrix = numerical_data.corr()
      sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
@@ -112,7 +112,7 @@ The code performs several data exploration steps:
      plt.show()
 
 #### Additional Visualizations
-- Scatter plots, box plots, and pair plots are used to explore relationships between various features and delivery time. For more details, see [Figure 6](#fig6) , [Figure 7](#fig7) , [Figure 8](#fig8) , [Figure 9](#fig9)
+- Scatter plots, box plots, and pair plots are used to explore relationships between various features and delivery time. For all plots refer to [Figure 6](#fig6) , [Figure 7](#fig7) , [Figure 8](#fig8) and [Figure 9](#fig9)
 - ```plt.figure(figsize=(10, 6))
      sns.scatterplot(x='Distance_Miles', y='Delivery_Time', data=data)
      plt.title('Distance vs Delivery Time')
