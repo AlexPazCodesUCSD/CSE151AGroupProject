@@ -54,7 +54,7 @@ For our project we decided to go with being able to predict an amazon delivery d
 ### Fig. 17) Feature Importance (Model 3 Random Trees) <a name="fig17"></a>
 ![Feature Importance](Model3_Feature_Importance.JPG)
 
-### Fig. 18) Feature Importance (Model 3 Random Trees) <a name="fig18"></a>
+### Fig. 18) Missing Features from Data Exploration <a name="fig18"></a>
 ![Missing Features](Missing_features.JPG)
 
 ## METHODS
