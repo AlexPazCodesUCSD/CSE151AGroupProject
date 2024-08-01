@@ -1,4 +1,6 @@
-# ABSTRACT
+# MILESTONE 1
+
+## ABSTRACT
 Our project aims to use the Amazon Delivery Dataset to predict the ratings of Amazon delivery agents using machine learning algorithms and techniques. The dataset encompasses over 43,632 delivery records across multiple cities, detailing various attributes such as order details, delivery agents' demographics, latitudinal and longitudinal coordinates of stores and delivery locations, order and delivery timestamps, and external factors like weather and traffic conditions. By analyzing these features, the project aims to identify patterns and correlations that influence delivery agents' performance ratings.
 The objective is to build and evaluate predictive models that can accurately estimate an agent's rating based on the provided attributes. This analysis will not only enhance the understanding of key factors affecting delivery efficiency but also contribute to the improvement in logistical operations.
 
@@ -102,7 +104,7 @@ Our project is particularly intriguing because it provides deep insights into th
 The broader impact of developing an accurate predictive model for agent ratings is substantial. For companies, it offers a clearer understanding of what to prioritize to enhance customer satisfaction. For drivers, it highlights key areas they should focus on to improve their ratings. Overall, a reliable predictive model can ensure that the most suitable drivers are assigned to deliveries, leading to better customer experiences and more efficient operations.
 
 ## A COMPLETE SUBMISSION
-[Milestone 1: Abstract](#ABSTRACT)    
+[Milestone 1: Abstract](#MILESTONE-1)    
 [Milestone 2: Data Exploration & Initial Preprocessing](#MILESTONE-2)  
 [Milestone 3: Pre-Processing](#MILESTONE-3)  
 [Milestone 4: Final Submission](#MILESTONE-4)  
