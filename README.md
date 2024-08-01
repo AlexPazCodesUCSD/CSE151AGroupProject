@@ -110,8 +110,8 @@ The broader impact of developing an accurate predictive model for agent ratings 
 [Milestone 4: Final Submission](#MILESTONE-4)  
 
 ## ALL CODE
-[Milestone 2: Code for Data Exploration and Initial Preprocessing](Milestone2_CSE151A_Group_Project_Amazon_Agent_Rating_submission.ipynb)  
-[Milestone 3: Code for Preprocessing and First Model](Milestone3_CSE151A_Group_Project_Amazon_Agent_Rating_(1).ipynb)  
+[Milestone 2: Code with Data Exploration and Initial Preprocessing](Milestone2_CSE151A_Group_Project_Amazon_Agent_Rating_submission.ipynb)  
+[Milestone 3: Code with Preprocessing and First Model](Milestone3_CSE151A_Group_Project_Amazon_Agent_Rating_(1).ipynb)  
 [Milestone 4: Code for Final Submission with all Models](Milestone4_CSE151A_Group_Project_Amazon_Agent_Rating.ipynb)  
 
 ## A WRITTEN REPORT
