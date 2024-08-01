@@ -54,6 +54,9 @@ For our project we decided to go with being able to predict an amazon delivery d
 ### Fig. 17) Feature Importance (Model 3 Random Trees) <a name="fig17"></a>
 ![Feature Importance](Model3_Feature_Importance.JPG)
 
+### Fig. 18) Feature Importance (Model 3 Random Trees) <a name="fig18"></a>
+![Missing Features](Missing_features.JPG)
+
 ## METHODS
 
 ### <u>DATA EXPLORATION</u> 
@@ -261,6 +264,8 @@ The code performs several data exploration steps:
 
 ## RESULTS
 ### <u>DATA EXPLORATION</u> 
+[Figure 18](#fig18)
+After removing features with missing values, we lost 265 observations. This meant we were confident that our data was very clean and we felt good about using it for our project.
 
 ### <u>**PREPROCESSING**</u>
 Most of the functions in this section are unimportant, but there were a few which gave us a glimpse at possible trends in our data.
