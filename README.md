@@ -95,6 +95,11 @@ We completed major preprocessing of our dataset and trained our first model usin
 # MILESTONE 4
 
 ## A COMPLETE INTRODUCTION
+For our project, we decided to focus on predicting the rating of Amazon delivery drivers based on several metrics. We chose this focus because a delivery driver's rating is a crucial differentiating factor among drivers. By understanding the factors that influence these ratings, we can determine how much weight should be placed on them when selecting the optimal driver for deliveries.
+
+Our project is particularly intriguing because it provides deep insights into the rating system and identifies the most significant metrics. For example, our analysis revealed that agent age is the second most correlated factor with agent ratings. This type of analysis allows us to uncover unexpected patterns and relationships within the data.
+
+The broader impact of developing an accurate predictive model for agent ratings is substantial. For companies, it offers a clearer understanding of what to prioritize to enhance customer satisfaction. For drivers, it highlights key areas they should focus on to improve their ratings. Overall, a reliable predictive model can ensure that the most suitable drivers are assigned to deliveries, leading to better customer experiences and more efficient operations.
 
 ## A COMPLETE SUBMISSION
 [Milestone 1: Abstract](#ABSTRACT)    
