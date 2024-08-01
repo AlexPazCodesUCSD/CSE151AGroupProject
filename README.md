@@ -103,9 +103,9 @@ We completed major preprocessing of our dataset and trained our first model usin
 [Milestone 4: Final Submission](#MILESTONE-4)  
 
 ## ALL CODE
-[Milestone 2](Milestone2_CSE151A_Group_Project_Amazon_Agent_Rating_submission.ipynb)
-[Milestone 3](Milestone3_CSE151A_Group_Project_Amazon_Agent_Rating_(1).ipynb)
-[Milestone 4](Milestone4_CSE151A_Group_Project_Amazon_Agent_Rating.ipynb)
+[Milestone 2](Milestone2_CSE151A_Group_Project_Amazon_Agent_Rating_submission.ipynb)  
+[Milestone 3](Milestone3_CSE151A_Group_Project_Amazon_Agent_Rating_(1).ipynb)  
+[Milestone 4](Milestone4_CSE151A_Group_Project_Amazon_Agent_Rating.ipynb)  
 
 ## A WRITTEN REPORT
 [Report for the Amazon Agent Rating Prediction Model](WrittenReport.md)
