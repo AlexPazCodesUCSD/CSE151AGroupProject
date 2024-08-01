@@ -68,7 +68,7 @@ All code and Jupyter notebooks used in this project are uploaded to this reposit
 
 ## PART 4
 ### Model fit line
-![Fitting line](fittingLine.png)
+![Fitting line](figures/fittingLine.png)
 Here we can see how our model predicts agent ratings with Delivery_Time as the X-axis. We can see that our fitting line is cutting in between main clusters of actual ratings. This means our predictions are achieving a good mse since the distance between our line and actual ratings is minimized.
 
 ### Next models and because
